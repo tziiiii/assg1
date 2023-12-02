@@ -1,0 +1,122 @@
+body {
+    margin:0;
+ 
+    background: black;
+    
+    
+      
+}
+section{
+    padding: 40px;
+    margin:20;
+}
+article{
+    padding: 40px;
+    margin:20;
+}
+.navbar a{/*navigation bar links*/
+    color: purple;
+    font-family: sans-serif;
+    
+}
+.navbar a:hover {/*hover animation for links*/
+    color: white;
+  }
+.navbar {
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: antiquewhite;
+    padding: 20px;
+    font-size: 40px;
+    z-index:2;
+  }
+h1{
+    font-size: 100px;
+    text-align: center;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button {/*button design and postion, z index prevents overlap with nav bar*/
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+    left: 46%;
+    position: absolute;
+    z-index:0;
+    
+    
+  }
+  
+  .button:hover {/*hover animation for button*/
+    background-color: white;
+    color: white;
+  }
+  .buttonalign{
+    text-align: center;
+  }
+  li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    font-size:65px;
+    text-align: center;
+    list-style-type: none;
+    margin: 10px 0;
+  }
+  .socials{/* alignment for social media icons*/
+    text-align: center;
+    background-color: black;
+  }
+p{
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+}
+.container {/*allow images to be aligned properly*/
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  .image {
+    max-width: 100%;
+    max-height:100%;
+    align-items: left;
+  }
+  
+  .text {
+    font-size: 80px;
+    padding-left: 50px;
+  }
+  
+form{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+}
+
+
+.checkboxes{/*checkbox layout*/
+  text-align: center;
+  font-size: 40px;
+  color:white;
+}
